@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vacation Planner</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Vacation Planner</h1>
+            <form class="js-form">
+                <label for="search-state">Enter one or more state abbreviations, separated by commas: </label>
+                <input type="text" name="search-state" class="js-state-entered" required> <br> <br>
+                <label for="max-results">Maximum number of results to return: </label>
+                <input type="number" name="max-results" class="js-result" value="10">
+                <input type="submit" value="Search">
+            </form>
+            <p class="js-error"></p>
+            <section class="results hidden" role="region">
+                <h2>Results: </h2>
+                <ul class="results-list">
+                </ul>
+            </section>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

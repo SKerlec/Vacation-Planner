@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    text-align: center;
+    background-color: rgb(121, 91, 48);
+    color: rgb(255, 156, 8);
+}
+  
+button, input[type="text"] {
+    padding: 5px;
+}
+  
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+  
+.error-message {
+    color: red;
+}
+
+.results-list {
+    list-style: none;
+}
+
+a {
+    color: rgb(218, 94, 12);
+}
+
+a:hover, a:focus {
+    color: red;
+}
+  
+.hidden {
+    display: none;
+}
